@@ -1,0 +1,39 @@
+body{
+	background-color: green;
+}
+
+.headings h2,h3{
+	font-weight: bold;
+}
+
+.leftsidebar{
+	border-right: 10px solid black;
+
+padding-top: 10px;
+height: 80vh;
+}
+
+.leftsidebar a{
+	font-weight: bold;
+	font-size: 30px;
+	color: black;
+	padding: 2px 20px;
+	text-decoration: none;
+
+}
+.leftsidebar ul{
+	list-style-type: none;
+	margin-left: -40px;
+}
+.leftsidebar li{
+	margin-top: 20px;
+
+}
+
+.leftsidebar li:hover{
+	background-color: orange;
+}
+
+.rightsidebar{
+border-top: 10px solid black;
+}
